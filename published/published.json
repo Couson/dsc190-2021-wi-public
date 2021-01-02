@@ -108,7 +108,16 @@
                 "allow_unspecified_artifacts": true,
                 "is_ordered": false
             },
-            "publications": {}
+            "publications": {
+                "test-export": {
+                    "metadata": {},
+                    "artifacts": {
+                        "export-to-public-github.zip": {
+                            "path": "default/test-export/export-to-public-github.zip"
+                        }
+                    }
+                }
+            }
         }
     }
 }
