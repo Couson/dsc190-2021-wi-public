@@ -3,9 +3,7 @@
         "lectures": {
             "schema": {
                 "required_artifacts": [
-                    "slides-eldridge.pdf",
-                    "slides-wang.pdf",
-                    "slides-wang.pptx"
+                    "slides.pdf"
                 ],
                 "optional_artifacts": [],
                 "metadata_schema": {
@@ -18,14 +16,7 @@
                     "topic": {
                         "type": "string"
                     },
-                    "reading": {
-                        "type": "string"
-                    },
-                    "wang-recording": {
-                        "type": "string",
-                        "nullable": true
-                    },
-                    "eldridge-videos": {
+                    "videos": {
                         "type": "list",
                         "schema": {
                             "type": "dict",
@@ -43,7 +34,34 @@
                 "allow_unspecified_artifacts": false,
                 "is_ordered": true
             },
-            "publications": {}
+            "publications": {
+                "01-intro": {
+                    "metadata": {
+                        "date": "2021-01-05",
+                        "number": 1,
+                        "topic": "Introduction and Review",
+                        "videos": [
+                            {
+                                "title": "The Syllabus",
+                                "url": "https://youtu.be/Ek0bu_KsI2M"
+                            },
+                            {
+                                "title": "Review of Time Complexity Analysis",
+                                "url": "https://youtu.be/VbUMkNk0T1o"
+                            },
+                            {
+                                "title": "Review of Arrays and Linked Lists",
+                                "url": "https://youtu.be/5ZbEG8Iebe8"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/01-intro/slides.pdf"
+                        }
+                    }
+                }
+            }
         },
         "discussions": {
             "schema": {
