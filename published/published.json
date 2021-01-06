@@ -60,6 +60,15 @@
                             "path": "lectures/01-intro/slides.pdf"
                         }
                     }
+                },
+                "02-dynamic_arrays": {
+                    "metadata": {
+                        "date": "2021-01-07",
+                        "number": 2,
+                        "topic": "Dynamic Arrays",
+                        "videos": []
+                    },
+                    "artifacts": {}
                 }
             }
         },
