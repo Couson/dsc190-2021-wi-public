@@ -5,7 +5,9 @@
                 "required_artifacts": [
                     "slides.pdf"
                 ],
-                "optional_artifacts": [],
+                "optional_artifacts": [
+                    "export-to-public-github.zip"
+                ],
                 "metadata_schema": {
                     "number": {
                         "type": "integer"
@@ -58,6 +60,22 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/01-intro/slides.pdf"
+                        }
+                    }
+                },
+                "02-dynamic_arrays": {
+                    "metadata": {
+                        "date": "2021-01-07",
+                        "number": 2,
+                        "topic": "Dynamic Arrays",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/02-dynamic_arrays/slides.pdf"
+                        },
+                        "export-to-public-github.zip": {
+                            "path": "lectures/02-dynamic_arrays/export-to-public-github.zip"
                         }
                     }
                 }
