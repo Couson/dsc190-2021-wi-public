@@ -68,7 +68,11 @@
                         "topic": "Dynamic Arrays",
                         "videos": []
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/02-dynamic_arrays/slides.pdf"
+                        }
+                    }
                 }
             }
         },
