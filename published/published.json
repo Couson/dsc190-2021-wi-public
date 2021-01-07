@@ -109,7 +109,7 @@
                         "type": "string"
                     },
                     "date": {
-                        "type": "datetime"
+                        "type": "smartdate"
                     },
                     "recording": {
                         "type": "string",
@@ -120,7 +120,21 @@
                 "allow_unspecified_artifacts": false,
                 "is_ordered": false
             },
-            "publications": {}
+            "publications": {
+                "01-dynamic_arrays": {
+                    "metadata": {
+                        "number": 1,
+                        "topic": "Time Complexity Analysis",
+                        "date": "2021-01-06",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/01-dynamic_arrays/discussion.pdf"
+                        }
+                    }
+                }
+            }
         },
         "homeworks": {
             "schema": {
