@@ -68,7 +68,20 @@
                         "date": "2021-01-07",
                         "number": 2,
                         "topic": "Dynamic Arrays",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "More about Memory",
+                                "url": "https://youtu.be/5J6UlEdvDSk"
+                            },
+                            {
+                                "title": "Motivating Dynamic Arrays",
+                                "url": "https://youtu.be/Pi28WszvaZI"
+                            },
+                            {
+                                "title": "Amortized Analysis",
+                                "url": "https://youtu.be/7Jr3IFFsLgo"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
