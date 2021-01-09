@@ -135,6 +135,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/01-dynamic_arrays/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/01-dynamic_arrays/solution.pdf"
                         }
                     }
                 }
