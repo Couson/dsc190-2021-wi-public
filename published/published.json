@@ -101,7 +101,24 @@
                         "date": "2021-01-12",
                         "number": 3,
                         "topic": "Heaps",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Abstract Data Types",
+                                "url": "https://youtu.be/cXKhWPYgnCw"
+                            },
+                            {
+                                "title": "Priority Queues",
+                                "url": "https://youtu.be/vjMpzJbbvG4"
+                            },
+                            {
+                                "title": "Binary Heaps",
+                                "url": "https://youtu.be/h_8-O1G70ao"
+                            },
+                            {
+                                "title": "Example: Online Median",
+                                "url": "https://youtu.be/eJ_YYxUV5x8"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
