@@ -95,6 +95,19 @@
                             "path": "lectures/02-dynamic_arrays/export-to-public-github.zip"
                         }
                     }
+                },
+                "03-heaps": {
+                    "metadata": {
+                        "date": "2021-01-12",
+                        "number": 3,
+                        "topic": "Heaps",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/03-heaps/slides.pdf"
+                        }
+                    }
                 }
             }
         },
