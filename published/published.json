@@ -198,7 +198,17 @@
                 "allow_unspecified_artifacts": false,
                 "is_ordered": false
             },
-            "publications": {}
+            "publications": {
+                "01-dynamic_arrays-heaps": {
+                    "metadata": {
+                        "number": 1,
+                        "topic": "Time Complexity Analysis",
+                        "due": "2021-01-20 23:59:00",
+                        "released": "2021-01-13 00:00:00"
+                    },
+                    "artifacts": {}
+                }
+            }
         },
         "default": {
             "schema": {
