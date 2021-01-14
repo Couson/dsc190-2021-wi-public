@@ -125,6 +125,19 @@
                             "path": "lectures/03-heaps/slides.pdf"
                         }
                     }
+                },
+                "04-bst": {
+                    "metadata": {
+                        "date": "2021-01-14",
+                        "number": 4,
+                        "topic": "Binary Search Trees",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/04-bst/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -159,7 +172,7 @@
                     "metadata": {
                         "number": 1,
                         "topic": "Time Complexity Analysis",
-                        "date": "2021-01-06",
+                        "date": "2021-01-07",
                         "recording": "https://ucsd.zoom.us/rec/share/DK3xFEzA1QnNjURdkHu8NKsJrbJOzNEWga1CYCYg1s49SsIRbZRURjsW6HsXKhha.vn8pkJ-1AtjVSZD-"
                     },
                     "artifacts": {
@@ -175,15 +188,12 @@
                     "metadata": {
                         "number": 2,
                         "topic": "Heaps",
-                        "date": "2021-01-13",
+                        "date": "2021-01-14",
                         "recording": null
                     },
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/02-heaps/discussion.pdf"
-                        },
-                        "solution.pdf": {
-                            "path": "discussions/02-heaps/solution.pdf"
                         }
                     }
                 }
