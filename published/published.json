@@ -152,7 +152,7 @@
                     }
                 },
                 "allow_unspecified_artifacts": false,
-                "is_ordered": false
+                "is_ordered": true
             },
             "publications": {
                 "01-dynamic_arrays": {
@@ -168,6 +168,22 @@
                         },
                         "solution.pdf": {
                             "path": "discussions/01-dynamic_arrays/solution.pdf"
+                        }
+                    }
+                },
+                "02-heaps": {
+                    "metadata": {
+                        "number": 2,
+                        "topic": "Heaps",
+                        "date": "2021-01-13",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/02-heaps/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/02-heaps/solution.pdf"
                         }
                     }
                 }
