@@ -131,7 +131,20 @@
                         "date": "2021-01-14",
                         "number": 4,
                         "topic": "Binary Search Trees",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Dynamic Sets and Hashing",
+                                "url": "https://youtu.be/oIeMbGvP45k"
+                            },
+                            {
+                                "title": "Binary Search Trees",
+                                "url": "https://youtu.be/VPMif7nwruU"
+                            },
+                            {
+                                "title": "Range Queries in BSTs",
+                                "url": "https://youtu.be/VmSMsS0LzGY"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
