@@ -207,6 +207,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/02-heaps/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/02-heaps/solution.pdf"
                         }
                     }
                 }
