@@ -238,7 +238,7 @@
                     }
                 },
                 "allow_unspecified_artifacts": false,
-                "is_ordered": false
+                "is_ordered": true
             },
             "publications": {
                 "01-dynamic_arrays-heaps": {
@@ -256,6 +256,15 @@
                             "path": "homeworks/01-dynamic_arrays-heaps/template.zip"
                         }
                     }
+                },
+                "02-treaps": {
+                    "metadata": {
+                        "number": 2,
+                        "topic": "Treaps",
+                        "due": "2021-01-27 23:59:00",
+                        "released": "2021-01-20 00:00:00"
+                    },
+                    "artifacts": {}
                 }
             }
         },
