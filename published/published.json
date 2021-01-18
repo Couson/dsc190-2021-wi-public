@@ -151,6 +151,19 @@
                             "path": "lectures/04-bst/slides.pdf"
                         }
                     }
+                },
+                "05-treaps": {
+                    "metadata": {
+                        "date": "2021-01-19",
+                        "number": 5,
+                        "topic": "Treaps",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/05-treaps/slides.pdf"
+                        }
+                    }
                 }
             }
         },
