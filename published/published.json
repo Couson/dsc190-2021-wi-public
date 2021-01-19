@@ -157,7 +157,40 @@
                         "date": "2021-01-19",
                         "number": 5,
                         "topic": "Treaps",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Today's Lecture",
+                                "url": "https://youtu.be/5hKrRoPOukE"
+                            },
+                            {
+                                "title": "Red-Black Trees",
+                                "url": "https://youtu.be/H46X4tuL1ps"
+                            },
+                            {
+                                "title": "Randomization to the Rescue",
+                                "url": "https://youtu.be/OIiAHgiDwtc"
+                            },
+                            {
+                                "title": "Treaps",
+                                "url": "https://youtu.be/gvYdd_btRLI"
+                            },
+                            {
+                                "title": "Properties of Treaps",
+                                "url": "https://youtu.be/wKuh16jJG1U"
+                            },
+                            {
+                                "title": "Randomized Binary Search Trees",
+                                "url": "https://youtu.be/xwSIXgbdROU"
+                            },
+                            {
+                                "title": "Order Statistic Trees",
+                                "url": "https://youtu.be/jKUQcj8w4wQ"
+                            },
+                            {
+                                "title": "Heaps vs. BSTs",
+                                "url": "https://youtu.be/YHszHAfl9xM"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
