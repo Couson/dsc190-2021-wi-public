@@ -197,6 +197,19 @@
                             "path": "lectures/05-treaps/slides.pdf"
                         }
                     }
+                },
+                "06-nn_trees": {
+                    "metadata": {
+                        "date": "2021-01-21",
+                        "number": 6,
+                        "topic": "k-d Trees",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/06-nn_trees/slides.pdf"
+                        }
+                    }
                 }
             }
         },
