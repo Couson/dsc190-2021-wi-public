@@ -360,7 +360,17 @@
                         "due": "2021-01-27 23:59:00",
                         "released": "2021-01-20 23:59:00"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/02-treaps/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/02-treaps/template.zip"
+                        },
+                        "starter_code.zip": {
+                            "path": "homeworks/02-treaps/starter_code.zip"
+                        }
+                    }
                 }
             }
         },
