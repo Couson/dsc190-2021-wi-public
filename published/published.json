@@ -195,6 +195,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/05-treaps/slides.pdf"
+                        },
+                        "export-to-public-github.zip": {
+                            "path": "lectures/05-treaps/export-to-public-github.zip"
                         }
                     }
                 },
