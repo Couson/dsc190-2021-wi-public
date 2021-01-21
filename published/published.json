@@ -6,7 +6,8 @@
                     "slides.pdf"
                 ],
                 "optional_artifacts": [
-                    "export-to-public-github.zip"
+                    "export-to-public-github.zip",
+                    "marked.pdf"
                 ],
                 "metadata_schema": {
                     "number": {
@@ -60,6 +61,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/01-intro/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/01-intro/marked.pdf"
                         }
                     }
                 },
@@ -93,6 +97,9 @@
                         },
                         "export-to-public-github.zip": {
                             "path": "lectures/02-dynamic_arrays/export-to-public-github.zip"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/02-dynamic_arrays/marked.pdf"
                         }
                     }
                 },
@@ -123,6 +130,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/03-heaps/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/03-heaps/marked.pdf"
                         }
                     }
                 },
@@ -149,6 +159,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/04-bst/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/04-bst/marked.pdf"
                         }
                     }
                 },
@@ -198,10 +211,13 @@
                         },
                         "export-to-public-github.zip": {
                             "path": "lectures/05-treaps/export-to-public-github.zip"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/05-treaps/marked.pdf"
                         }
                     }
                 },
-                "06-nn_trees": {
+                "06-kd_trees": {
                     "metadata": {
                         "date": "2021-01-21",
                         "number": 6,
@@ -210,7 +226,10 @@
                     },
                     "artifacts": {
                         "slides.pdf": {
-                            "path": "lectures/06-nn_trees/slides.pdf"
+                            "path": "lectures/06-kd_trees/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/06-kd_trees/marked.pdf"
                         }
                     }
                 }
