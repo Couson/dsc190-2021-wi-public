@@ -274,6 +274,19 @@
                             "path": "discussions/02-heaps/solution.pdf"
                         }
                     }
+                },
+                "03-treaps": {
+                    "metadata": {
+                        "number": 3,
+                        "topic": "Time Complexity Analysis",
+                        "date": "2021-01-21",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/03-treaps/discussion.pdf"
+                        }
+                    }
                 }
             }
         },
