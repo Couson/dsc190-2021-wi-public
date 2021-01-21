@@ -222,7 +222,32 @@
                         "date": "2021-01-21",
                         "number": 6,
                         "topic": "k-d Trees",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Today's Lecture",
+                                "url": "https://youtu.be/SBoSLrdzAn0"
+                            },
+                            {
+                                "title": "k-d Trees",
+                                "url": "https://youtu.be/sBUIzn0FwC0"
+                            },
+                            {
+                                "title": "Nearest Neighbor Queries",
+                                "url": "https://youtu.be/AHLz5JKtgLY"
+                            },
+                            {
+                                "title": "Construction",
+                                "url": "https://youtu.be/9wlvLG6q0wQ"
+                            },
+                            {
+                                "title": "The Curse of Dimensionality",
+                                "url": "https://youtu.be/82a9dTcHuN8"
+                            },
+                            {
+                                "title": "Approximate Nearest Neighbors",
+                                "url": "https://youtu.be/KXKvhJoSCbM"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
