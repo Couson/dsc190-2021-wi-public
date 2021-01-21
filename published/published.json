@@ -253,6 +253,9 @@
                         "slides.pdf": {
                             "path": "lectures/06-kd_trees/slides.pdf"
                         },
+                        "export-to-public-github.zip": {
+                            "path": "lectures/06-kd_trees/export-to-public-github.zip"
+                        },
                         "marked.pdf": {
                             "path": "lectures/06-kd_trees/marked.pdf"
                         }
