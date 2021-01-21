@@ -284,7 +284,9 @@
                     "solution.pdf",
                     "template.zip"
                 ],
-                "optional_artifacts": [],
+                "optional_artifacts": [
+                    "starter_code.zip"
+                ],
                 "metadata_schema": {
                     "number": {
                         "type": "integer"
