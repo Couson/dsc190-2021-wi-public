@@ -332,6 +332,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/03-treaps/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/03-treaps/solution.pdf"
                         }
                     }
                 }
@@ -378,6 +381,9 @@
                         },
                         "template.zip": {
                             "path": "homeworks/01-dynamic_arrays-heaps/template.zip"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/01-dynamic_arrays-heaps/solution.pdf"
                         }
                     }
                 },
