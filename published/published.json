@@ -260,6 +260,22 @@
                             "path": "lectures/06-kd_trees/marked.pdf"
                         }
                     }
+                },
+                "07-lsh": {
+                    "metadata": {
+                        "date": "2021-01-26",
+                        "number": 7,
+                        "topic": "Locality Sensitive Hashing",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/07-lsh/slides.pdf"
+                        },
+                        "export-to-public-github.zip": {
+                            "path": "lectures/07-lsh/export-to-public-github.zip"
+                        }
+                    }
                 }
             }
         },
