@@ -421,6 +421,15 @@
                             "path": "homeworks/02-treaps/starter_code.zip"
                         }
                     }
+                },
+                "03-nn_search": {
+                    "metadata": {
+                        "number": 3,
+                        "topic": "Nearest Neighbor Search",
+                        "due": "2021-02-03 23:59:00",
+                        "released": "2021-01-27 23:59:00"
+                    },
+                    "artifacts": {}
                 }
             }
         },
