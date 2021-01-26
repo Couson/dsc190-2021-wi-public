@@ -303,6 +303,9 @@
                         },
                         "export-to-public-github.zip": {
                             "path": "lectures/07-lsh/export-to-public-github.zip"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/07-lsh/marked.pdf"
                         }
                     }
                 }
