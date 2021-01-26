@@ -266,7 +266,36 @@
                         "date": "2021-01-26",
                         "number": 7,
                         "topic": "Locality Sensitive Hashing",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Today's Lecture",
+                                "url": "https://youtu.be/1bibGM7aGqo"
+                            },
+                            {
+                                "title": "Implementing a NN Grid",
+                                "url": "https://youtu.be/4MXTN2hrRXM"
+                            },
+                            {
+                                "title": "Randomized Grids",
+                                "url": "https://youtu.be/LUiKO1GMPtg"
+                            },
+                            {
+                                "title": "Theory of Locality Sensitive Hashing",
+                                "url": "https://youtu.be/_bYeKKpcVkg"
+                            },
+                            {
+                                "title": "The Johnson-Lindenstrauss Lemma",
+                                "url": "https://youtu.be/oOwVI3Fn7sA"
+                            },
+                            {
+                                "title": "ANN in Practice",
+                                "url": "https://youtu.be/BwnOphDhnEk"
+                            },
+                            {
+                                "title": "LSH Demo",
+                                "url": "https://youtu.be/CkPfPJQbSjg"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
