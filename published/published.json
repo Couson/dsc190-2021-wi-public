@@ -415,6 +415,19 @@
                             "path": "discussions/03-treaps/solution.pdf"
                         }
                     }
+                },
+                "04-kd_trees-lsh": {
+                    "metadata": {
+                        "number": 4,
+                        "topic": "k-d Trees and LSH",
+                        "date": "2021-01-28",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/04-kd_trees-lsh/discussion.pdf"
+                        }
+                    }
                 }
             }
         },
