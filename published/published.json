@@ -308,6 +308,36 @@
                             "path": "lectures/07-lsh/marked.pdf"
                         }
                     }
+                },
+                "08-union_find": {
+                    "metadata": {
+                        "date": "2021-01-28",
+                        "number": 8,
+                        "topic": "Disjoint Set Forests",
+                        "videos": [
+                            {
+                                "title": "Today's Lecture",
+                                "url": "https://youtu.be/A5oUnrDmxIE"
+                            },
+                            {
+                                "title": "Disjoint Set Forests",
+                                "url": "https://youtu.be/eZ9zpUVE7VY"
+                            },
+                            {
+                                "title": "Path Compression and Union-by-Rank",
+                                "url": "https://youtu.be/dhsQFj9Z9Nk"
+                            },
+                            {
+                                "title": "Analysis",
+                                "url": "https://youtu.be/CzdXoLjTye0"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/08-union_find/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -461,7 +491,14 @@
                         "due": "2021-02-03 23:59:00",
                         "released": "2021-01-27 23:59:00"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/03-nn_search/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/03-nn_search/template.zip"
+                        }
+                    }
                 }
             }
         },
