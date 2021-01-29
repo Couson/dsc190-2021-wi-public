@@ -426,6 +426,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/04-kd_trees-lsh/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/04-kd_trees-lsh/solution.pdf"
                         }
                     }
                 }
