@@ -338,6 +338,48 @@
                             "path": "lectures/08-union_find/slides.pdf"
                         }
                     }
+                },
+                "09-greedy": {
+                    "metadata": {
+                        "date": "2021-02-02",
+                        "number": 9,
+                        "topic": "Greedy Algorithms",
+                        "videos": [
+                            {
+                                "title": "Today's Lecture",
+                                "url": "https://youtu.be/F2_BJVuglS4"
+                            },
+                            {
+                                "title": "Optimization Problems",
+                                "url": "https://youtu.be/o1UOMJYqsKs"
+                            },
+                            {
+                                "title": "Greedy Algorithms by Example",
+                                "url": "https://youtu.be/kLXnGYyPW_M"
+                            },
+                            {
+                                "title": "Activity Selection",
+                                "url": "https://youtu.be/VljvVR7_zQU"
+                            },
+                            {
+                                "title": "Exchange Arguments",
+                                "url": "https://youtu.be/OLDU-EoX7nk"
+                            },
+                            {
+                                "title": "Minimum Spanning Trees",
+                                "url": "https://youtu.be/ctqlbG24EtQ"
+                            },
+                            {
+                                "title": "Designing Greedy Algorithms",
+                                "url": "https://youtu.be/1W3vEgZORt4"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/09-greedy/slides.pdf"
+                        }
+                    }
                 }
             }
         },
