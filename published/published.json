@@ -549,8 +549,8 @@
                     "metadata": {
                         "number": 3,
                         "topic": "Nearest Neighbor Search",
-                        "due": "2021-02-03 23:59:00",
-                        "released": "2021-01-27 23:59:00"
+                        "due": "2021-02-04 23:59:00",
+                        "released": "2021-01-28 23:59:00"
                     },
                     "artifacts": {
                         "homework.pdf": {
@@ -565,8 +565,8 @@
                     "metadata": {
                         "number": 4,
                         "topic": "Disjoint Set Forests and Greedy Algorithms",
-                        "due": "2021-02-10 23:59:00",
-                        "released": "2021-02-03 23:59:00"
+                        "due": "2021-02-11 23:59:00",
+                        "released": "2021-02-04 23:59:00"
                     },
                     "artifacts": {}
                 }
