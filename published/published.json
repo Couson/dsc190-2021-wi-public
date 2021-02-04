@@ -473,6 +473,19 @@
                             "path": "discussions/04-kd_trees-lsh/solution.pdf"
                         }
                     }
+                },
+                "05-dsf-greedy": {
+                    "metadata": {
+                        "number": 5,
+                        "topic": "DSFs and Greedy Algorithms",
+                        "date": "2021-02-04",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/05-dsf-greedy/discussion.pdf"
+                        }
+                    }
                 }
             }
         },
