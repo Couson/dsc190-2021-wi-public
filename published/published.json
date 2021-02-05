@@ -380,6 +380,19 @@
                             "path": "lectures/09-greedy/slides.pdf"
                         }
                     }
+                },
+                "10-backtracking": {
+                    "metadata": {
+                        "date": "2021-02-04",
+                        "number": 10,
+                        "topic": "Backtracking",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/10-backtracking/slides.pdf"
+                        }
+                    }
                 }
             }
         },
