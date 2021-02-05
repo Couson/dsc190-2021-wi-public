@@ -522,6 +522,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/05-dsf-greedy/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/05-dsf-greedy/solution.pdf"
                         }
                     }
                 }
@@ -619,7 +622,17 @@
                         "due": "2021-02-11 23:59:00",
                         "released": "2021-02-04 23:59:00"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/04-dsf-greedy/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/04-dsf-greedy/template.zip"
+                        },
+                        "starter_code.zip": {
+                            "path": "homeworks/04-dsf-greedy/starter_code.zip"
+                        }
+                    }
                 }
             }
         },
