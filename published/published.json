@@ -386,7 +386,32 @@
                         "date": "2021-02-04",
                         "number": 10,
                         "topic": "Backtracking",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Today's Lecture",
+                                "url": "https://youtu.be/5af5Wb_16NY"
+                            },
+                            {
+                                "title": "The 0-1 Knapsack Problem",
+                                "url": "https://youtu.be/il2wxXVEUhg"
+                            },
+                            {
+                                "title": "Backtracking",
+                                "url": "https://youtu.be/BRzdtxzaxZ0"
+                            },
+                            {
+                                "title": "Efficiency Analysis",
+                                "url": "https://youtu.be/mmGij8aZdFM"
+                            },
+                            {
+                                "title": "Branch and Bound",
+                                "url": "https://youtu.be/43_HxGPnlHI"
+                            },
+                            {
+                                "title": "Summary",
+                                "url": "https://youtu.be/8JZS1yW6pUQ"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
