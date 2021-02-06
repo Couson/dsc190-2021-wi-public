@@ -612,6 +612,9 @@
                         },
                         "template.zip": {
                             "path": "homeworks/03-nn_search/template.zip"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/03-nn_search/solution.pdf"
                         }
                     }
                 },
