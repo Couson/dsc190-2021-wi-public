@@ -418,6 +418,19 @@
                             "path": "lectures/10-backtracking/slides.pdf"
                         }
                     }
+                },
+                "11-dp": {
+                    "metadata": {
+                        "date": "2021-02-09",
+                        "number": 11,
+                        "topic": "Dynamic Programming, pt. I",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/11-dp/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -636,6 +649,15 @@
                             "path": "homeworks/04-dsf-greedy/starter_code.zip"
                         }
                     }
+                },
+                "05-dp": {
+                    "metadata": {
+                        "number": 5,
+                        "topic": "Dynamic Programming",
+                        "due": "2021-02-18 23:59:00",
+                        "released": "2021-02-11 23:59:00"
+                    },
+                    "artifacts": {}
                 }
             }
         },
