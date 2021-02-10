@@ -569,6 +569,19 @@
                             "path": "discussions/05-dsf-greedy/solution.pdf"
                         }
                     }
+                },
+                "06-backtracking-memoization": {
+                    "metadata": {
+                        "number": 6,
+                        "topic": "Time Complexity Analysis",
+                        "date": "2021-02-11",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/06-backtracking-memoization/discussion.pdf"
+                        }
+                    }
                 }
             }
         },
