@@ -691,15 +691,6 @@
                             "path": "homeworks/04-dsf-greedy/starter_code.zip"
                         }
                     }
-                },
-                "05-dp": {
-                    "metadata": {
-                        "number": 5,
-                        "topic": "Dynamic Programming",
-                        "due": "2021-02-18 23:59:00",
-                        "released": "2021-02-11 23:59:00"
-                    },
-                    "artifacts": {}
                 }
             }
         },
