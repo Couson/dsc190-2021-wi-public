@@ -614,6 +614,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/06-backtracking-memoization/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/06-backtracking-memoization/solution.pdf"
                         }
                     }
                 }
