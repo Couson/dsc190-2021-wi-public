@@ -724,6 +724,9 @@
                         "template.zip": {
                             "path": "homeworks/04-dsf-greedy/template.zip"
                         },
+                        "solution.pdf": {
+                            "path": "homeworks/04-dsf-greedy/solution.pdf"
+                        },
                         "starter_code.zip": {
                             "path": "homeworks/04-dsf-greedy/starter_code.zip"
                         }
