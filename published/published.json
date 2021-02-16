@@ -494,6 +494,28 @@
                             "path": "lectures/12-dp-lcs/slides.pdf"
                         }
                     }
+                },
+                "13-pytest": {
+                    "metadata": {
+                        "date": "2021-02-16",
+                        "number": 13,
+                        "topic": "Unit Testing (Optional)",
+                        "videos": [
+                            {
+                                "title": "Today's (Optional) Lecture",
+                                "url": "https://youtu.be/nE2alAiA6LI"
+                            },
+                            {
+                                "title": "How to Test Your Homework with pytest",
+                                "url": "https://youtu.be/Ian7V7HVT0k"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/13-pytest/slides.pdf"
+                        }
+                    }
                 }
             }
         },
