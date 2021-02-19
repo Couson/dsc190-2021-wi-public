@@ -516,129 +516,30 @@
                             "path": "lectures/13-pytest/slides.pdf"
                         }
                     }
-                }
-            }
-        },
-        "discussions": {
-            "schema": {
-                "required_artifacts": [
-                    "discussion.pdf",
-                    "solution.pdf"
-                ],
-                "optional_artifacts": [],
-                "metadata_schema": {
-                    "number": {
-                        "type": "integer"
-                    },
-                    "topic": {
-                        "type": "string"
-                    },
-                    "date": {
-                        "type": "smartdate"
-                    },
-                    "recording": {
-                        "type": "string",
-                        "required": false,
-                        "nullable": true
-                    }
                 },
-                "allow_unspecified_artifacts": false,
-                "is_ordered": true
-            },
-            "publications": {
-                "01-dynamic_arrays": {
+                "14-rabin_karp": {
                     "metadata": {
-                        "number": 1,
-                        "topic": "Time Complexity Analysis",
-                        "date": "2021-01-07",
-                        "recording": "https://ucsd.zoom.us/rec/share/DK3xFEzA1QnNjURdkHu8NKsJrbJOzNEWga1CYCYg1s49SsIRbZRURjsW6HsXKhha.vn8pkJ-1AtjVSZD-"
+                        "date": "2021-02-18",
+                        "number": 14,
+                        "topic": "Rabin-Karp String Matching",
+                        "videos": [
+                            {
+                                "title": "String Matching",
+                                "url": "https://youtu.be/ZcgX5Z6hsVE"
+                            },
+                            {
+                                "title": "Rabin-Karp",
+                                "url": "https://youtu.be/n_7XllhBTic"
+                            },
+                            {
+                                "title": "Rolling Hashes",
+                                "url": "https://youtu.be/GeOyK4DcW_U"
+                            }
+                        ]
                     },
                     "artifacts": {
-                        "discussion.pdf": {
-                            "path": "discussions/01-dynamic_arrays/discussion.pdf"
-                        },
-                        "solution.pdf": {
-                            "path": "discussions/01-dynamic_arrays/solution.pdf"
-                        }
-                    }
-                },
-                "02-heaps": {
-                    "metadata": {
-                        "number": 2,
-                        "topic": "Heaps",
-                        "date": "2021-01-14",
-                        "recording": "https://ucsd.zoom.us/rec/share/DXP2EG_upXmVCXPxqp75okdihx0aJHSniLAUh-qd3Zx0O1oR0hE448uvyrCCgape.jPNnHnAD7RNh6unf"
-                    },
-                    "artifacts": {
-                        "discussion.pdf": {
-                            "path": "discussions/02-heaps/discussion.pdf"
-                        },
-                        "solution.pdf": {
-                            "path": "discussions/02-heaps/solution.pdf"
-                        }
-                    }
-                },
-                "03-treaps": {
-                    "metadata": {
-                        "number": 3,
-                        "topic": "Time Complexity Analysis",
-                        "date": "2021-01-21",
-                        "recording": "https://ucsd.zoom.us/rec/share/e7EeNyi9-T_n9CdI7dHafx4MBh4HcM-QbHJK1jNlYgPmg7HOrx52jNVHwwl1iU4m.0OvGQCBnC04i8d7c"
-                    },
-                    "artifacts": {
-                        "discussion.pdf": {
-                            "path": "discussions/03-treaps/discussion.pdf"
-                        },
-                        "solution.pdf": {
-                            "path": "discussions/03-treaps/solution.pdf"
-                        }
-                    }
-                },
-                "04-kd_trees-lsh": {
-                    "metadata": {
-                        "number": 4,
-                        "topic": "k-d Trees and LSH",
-                        "date": "2021-01-28",
-                        "recording": "https://ucsd.zoom.us/rec/share/BjO3eJyEeIJpCAqko6WS3U0Nan6cf1421PP9254IJIGx7q6b6h1sCZ_kcyoX8V98.tH2MSqPT86GKsQD9"
-                    },
-                    "artifacts": {
-                        "discussion.pdf": {
-                            "path": "discussions/04-kd_trees-lsh/discussion.pdf"
-                        },
-                        "solution.pdf": {
-                            "path": "discussions/04-kd_trees-lsh/solution.pdf"
-                        }
-                    }
-                },
-                "05-dsf-greedy": {
-                    "metadata": {
-                        "number": 5,
-                        "topic": "DSFs and Greedy Algorithms",
-                        "date": "2021-02-04",
-                        "recording": "https://ucsd.zoom.us/rec/share/i52-dXVYbctMCl-o_cjfLlqeCJ46iHPPiuo6OKwVrFTW_5Ts5Pd8mzxIgFYYtLqd.hG6I2wfhM5anN-z9"
-                    },
-                    "artifacts": {
-                        "discussion.pdf": {
-                            "path": "discussions/05-dsf-greedy/discussion.pdf"
-                        },
-                        "solution.pdf": {
-                            "path": "discussions/05-dsf-greedy/solution.pdf"
-                        }
-                    }
-                },
-                "06-backtracking-memoization": {
-                    "metadata": {
-                        "number": 6,
-                        "topic": "Time Complexity Analysis",
-                        "date": "2021-02-11",
-                        "recording": "https://ucsd.zoom.us/rec/share/-M5xfb1VNsk4LXKMeJNJEfRPStg8YWk81mjT736iWPZj7-RvuIUYysSNsIb20nFt.NBCGijGEIJki6enT"
-                    },
-                    "artifacts": {
-                        "discussion.pdf": {
-                            "path": "discussions/06-backtracking-memoization/discussion.pdf"
-                        },
-                        "solution.pdf": {
-                            "path": "discussions/06-backtracking-memoization/solution.pdf"
+                        "slides.pdf": {
+                            "path": "lectures/14-rabin_karp/slides.pdf"
                         }
                     }
                 }
@@ -767,6 +668,131 @@
                         },
                         "template.zip": {
                             "path": "homeworks/05-dp/template.zip"
+                        }
+                    }
+                }
+            }
+        },
+        "discussions": {
+            "schema": {
+                "required_artifacts": [
+                    "discussion.pdf",
+                    "solution.pdf"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "topic": {
+                        "type": "string"
+                    },
+                    "date": {
+                        "type": "smartdate"
+                    },
+                    "recording": {
+                        "type": "string",
+                        "required": false,
+                        "nullable": true
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-dynamic_arrays": {
+                    "metadata": {
+                        "number": 1,
+                        "topic": "Time Complexity Analysis",
+                        "date": "2021-01-07",
+                        "recording": "https://ucsd.zoom.us/rec/share/DK3xFEzA1QnNjURdkHu8NKsJrbJOzNEWga1CYCYg1s49SsIRbZRURjsW6HsXKhha.vn8pkJ-1AtjVSZD-"
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/01-dynamic_arrays/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/01-dynamic_arrays/solution.pdf"
+                        }
+                    }
+                },
+                "02-heaps": {
+                    "metadata": {
+                        "number": 2,
+                        "topic": "Heaps",
+                        "date": "2021-01-14",
+                        "recording": "https://ucsd.zoom.us/rec/share/DXP2EG_upXmVCXPxqp75okdihx0aJHSniLAUh-qd3Zx0O1oR0hE448uvyrCCgape.jPNnHnAD7RNh6unf"
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/02-heaps/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/02-heaps/solution.pdf"
+                        }
+                    }
+                },
+                "03-treaps": {
+                    "metadata": {
+                        "number": 3,
+                        "topic": "Time Complexity Analysis",
+                        "date": "2021-01-21",
+                        "recording": "https://ucsd.zoom.us/rec/share/e7EeNyi9-T_n9CdI7dHafx4MBh4HcM-QbHJK1jNlYgPmg7HOrx52jNVHwwl1iU4m.0OvGQCBnC04i8d7c"
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/03-treaps/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/03-treaps/solution.pdf"
+                        }
+                    }
+                },
+                "04-kd_trees-lsh": {
+                    "metadata": {
+                        "number": 4,
+                        "topic": "k-d Trees and LSH",
+                        "date": "2021-01-28",
+                        "recording": "https://ucsd.zoom.us/rec/share/BjO3eJyEeIJpCAqko6WS3U0Nan6cf1421PP9254IJIGx7q6b6h1sCZ_kcyoX8V98.tH2MSqPT86GKsQD9"
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/04-kd_trees-lsh/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/04-kd_trees-lsh/solution.pdf"
+                        }
+                    }
+                },
+                "05-dsf-greedy": {
+                    "metadata": {
+                        "number": 5,
+                        "topic": "DSFs and Greedy Algorithms",
+                        "date": "2021-02-04",
+                        "recording": "https://ucsd.zoom.us/rec/share/i52-dXVYbctMCl-o_cjfLlqeCJ46iHPPiuo6OKwVrFTW_5Ts5Pd8mzxIgFYYtLqd.hG6I2wfhM5anN-z9"
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/05-dsf-greedy/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/05-dsf-greedy/solution.pdf"
+                        }
+                    }
+                },
+                "06-backtracking-memoization": {
+                    "metadata": {
+                        "number": 6,
+                        "topic": "Time Complexity Analysis",
+                        "date": "2021-02-11",
+                        "recording": "https://ucsd.zoom.us/rec/share/-M5xfb1VNsk4LXKMeJNJEfRPStg8YWk81mjT736iWPZj7-RvuIUYysSNsIb20nFt.NBCGijGEIJki6enT"
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/06-backtracking-memoization/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/06-backtracking-memoization/solution.pdf"
                         }
                     }
                 }
