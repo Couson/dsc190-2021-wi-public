@@ -1,5 +1,133 @@
 {
     "collections": {
+        "homeworks": {
+            "schema": {
+                "required_artifacts": [
+                    "homework.pdf",
+                    "solution.pdf",
+                    "template.zip"
+                ],
+                "optional_artifacts": [
+                    "starter_code.zip"
+                ],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "topic": {
+                        "type": "string"
+                    },
+                    "released": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-dynamic_arrays-heaps": {
+                    "metadata": {
+                        "number": 1,
+                        "topic": "Time Complexity Analysis",
+                        "due": "2021-01-20 23:59:00",
+                        "released": "2021-01-12 00:00:00"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/01-dynamic_arrays-heaps/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/01-dynamic_arrays-heaps/template.zip"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/01-dynamic_arrays-heaps/solution.pdf"
+                        }
+                    }
+                },
+                "02-treaps": {
+                    "metadata": {
+                        "number": 2,
+                        "topic": "Treaps",
+                        "due": "2021-01-27 23:59:00",
+                        "released": "2021-01-20 23:59:00"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/02-treaps/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/02-treaps/template.zip"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/02-treaps/solution.pdf"
+                        },
+                        "starter_code.zip": {
+                            "path": "homeworks/02-treaps/starter_code.zip"
+                        }
+                    }
+                },
+                "03-nn_search": {
+                    "metadata": {
+                        "number": 3,
+                        "topic": "Nearest Neighbor Search",
+                        "due": "2021-02-04 23:59:00",
+                        "released": "2021-01-28 23:59:00"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/03-nn_search/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/03-nn_search/template.zip"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/03-nn_search/solution.pdf"
+                        }
+                    }
+                },
+                "04-dsf-greedy": {
+                    "metadata": {
+                        "number": 4,
+                        "topic": "Disjoint Set Forests and Greedy Algorithms",
+                        "due": "2021-02-11 23:59:00",
+                        "released": "2021-02-04 23:59:00"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/04-dsf-greedy/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/04-dsf-greedy/template.zip"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/04-dsf-greedy/solution.pdf"
+                        },
+                        "starter_code.zip": {
+                            "path": "homeworks/04-dsf-greedy/starter_code.zip"
+                        }
+                    }
+                },
+                "05-dp": {
+                    "metadata": {
+                        "number": 5,
+                        "topic": "Dynamic Programming",
+                        "due": "2021-02-18 23:59:00",
+                        "released": "2021-02-11 23:59:00"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/05-dp/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/05-dp/template.zip"
+                        }
+                    }
+                }
+            }
+        },
         "lectures": {
             "schema": {
                 "required_artifacts": [
@@ -540,134 +668,6 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/14-rabin_karp/slides.pdf"
-                        }
-                    }
-                }
-            }
-        },
-        "homeworks": {
-            "schema": {
-                "required_artifacts": [
-                    "homework.pdf",
-                    "solution.pdf",
-                    "template.zip"
-                ],
-                "optional_artifacts": [
-                    "starter_code.zip"
-                ],
-                "metadata_schema": {
-                    "number": {
-                        "type": "integer"
-                    },
-                    "topic": {
-                        "type": "string"
-                    },
-                    "released": {
-                        "type": "smartdatetime"
-                    },
-                    "due": {
-                        "type": "smartdatetime"
-                    }
-                },
-                "allow_unspecified_artifacts": false,
-                "is_ordered": true
-            },
-            "publications": {
-                "01-dynamic_arrays-heaps": {
-                    "metadata": {
-                        "number": 1,
-                        "topic": "Time Complexity Analysis",
-                        "due": "2021-01-20 23:59:00",
-                        "released": "2021-01-12 00:00:00"
-                    },
-                    "artifacts": {
-                        "homework.pdf": {
-                            "path": "homeworks/01-dynamic_arrays-heaps/homework.pdf"
-                        },
-                        "template.zip": {
-                            "path": "homeworks/01-dynamic_arrays-heaps/template.zip"
-                        },
-                        "solution.pdf": {
-                            "path": "homeworks/01-dynamic_arrays-heaps/solution.pdf"
-                        }
-                    }
-                },
-                "02-treaps": {
-                    "metadata": {
-                        "number": 2,
-                        "topic": "Treaps",
-                        "due": "2021-01-27 23:59:00",
-                        "released": "2021-01-20 23:59:00"
-                    },
-                    "artifacts": {
-                        "homework.pdf": {
-                            "path": "homeworks/02-treaps/homework.pdf"
-                        },
-                        "template.zip": {
-                            "path": "homeworks/02-treaps/template.zip"
-                        },
-                        "solution.pdf": {
-                            "path": "homeworks/02-treaps/solution.pdf"
-                        },
-                        "starter_code.zip": {
-                            "path": "homeworks/02-treaps/starter_code.zip"
-                        }
-                    }
-                },
-                "03-nn_search": {
-                    "metadata": {
-                        "number": 3,
-                        "topic": "Nearest Neighbor Search",
-                        "due": "2021-02-04 23:59:00",
-                        "released": "2021-01-28 23:59:00"
-                    },
-                    "artifacts": {
-                        "homework.pdf": {
-                            "path": "homeworks/03-nn_search/homework.pdf"
-                        },
-                        "template.zip": {
-                            "path": "homeworks/03-nn_search/template.zip"
-                        },
-                        "solution.pdf": {
-                            "path": "homeworks/03-nn_search/solution.pdf"
-                        }
-                    }
-                },
-                "04-dsf-greedy": {
-                    "metadata": {
-                        "number": 4,
-                        "topic": "Disjoint Set Forests and Greedy Algorithms",
-                        "due": "2021-02-11 23:59:00",
-                        "released": "2021-02-04 23:59:00"
-                    },
-                    "artifacts": {
-                        "homework.pdf": {
-                            "path": "homeworks/04-dsf-greedy/homework.pdf"
-                        },
-                        "template.zip": {
-                            "path": "homeworks/04-dsf-greedy/template.zip"
-                        },
-                        "solution.pdf": {
-                            "path": "homeworks/04-dsf-greedy/solution.pdf"
-                        },
-                        "starter_code.zip": {
-                            "path": "homeworks/04-dsf-greedy/starter_code.zip"
-                        }
-                    }
-                },
-                "05-dp": {
-                    "metadata": {
-                        "number": 5,
-                        "topic": "Dynamic Programming",
-                        "due": "2021-02-18 23:59:00",
-                        "released": "2021-02-11 23:59:00"
-                    },
-                    "artifacts": {
-                        "homework.pdf": {
-                            "path": "homeworks/05-dp/homework.pdf"
-                        },
-                        "template.zip": {
-                            "path": "homeworks/05-dp/template.zip"
                         }
                     }
                 }
