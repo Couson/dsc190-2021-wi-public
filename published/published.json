@@ -125,6 +125,22 @@
                             "path": "homeworks/05-dp/template.zip"
                         }
                     }
+                },
+                "06-rabin_karp": {
+                    "metadata": {
+                        "number": 6,
+                        "topic": "Rabin-Karp",
+                        "due": "2021-02-25 23:59:00",
+                        "released": "2021-02-18 23:59:00"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/06-rabin_karp/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/06-rabin_karp/template.zip"
+                        }
+                    }
                 }
             }
         },
