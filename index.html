@@ -1,0 +1,3888 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Do not cache this page -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style/style.css">
+
+        <!-- Optional JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- Emoji -->
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+        <!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Arvo|Bitter|Fira+Sans|Noto+Serif+JP|Roboto+Slab&display=swap" rel="stylesheet">
+
+    <title>DSC 190 - Advanced Algorithms for Data Science</title>
+    </head>
+    <body class="text-md-left">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10">
+                    
+<div class="row">
+    <div class="col-md-12 p-2">
+        <img class="d-block mx-auto mx-md-0" src="static/logo.svg">
+    </div>
+</div>
+
+<div style="margin-top: 3em; margin-bottom: 3em; padding: 0em">
+<div class="button-bar list-group list-group-horizontal-md h-30" style="text-align: center">
+
+    <a href="./syllabus.html" class="list-group-item list-group-item-action">
+    <i class="em em-scroll" aria-role="presentation"></i>
+    &nbsp;
+    Syllabus
+    <br>
+    <small class="text-muted">
+        FAQ, etc.
+    </small>
+  </a>
+
+    <a href="./office_hours.html" class="list-group-item list-group-item-action">
+    <i class="em em-male-teacher" aria-role="presentation"></i>
+    &nbsp;
+    Office Hours
+    <br>
+    <small class="text-muted">
+        Calendar
+    </small>
+  </a>
+
+    <a href="https://campuswire.com/c/G9B54D5CE/feed" class="list-group-item list-group-item-action">
+    <i class="em em-left_speech_bubble" aria-role="presentation"></i>
+    &nbsp;
+    Campuswire
+    <br>
+    <small class="text-muted">
+        Message Board
+    </small>
+  </a>
+
+    <a href="https://www.gradescope.com/courses/220719" class="list-group-item list-group-item-action">
+    <i class="em em-100" aria-role="presentation"></i>
+    &nbsp;
+    Gradescope
+    <br>
+    <small class="text-muted">
+        Gradebook
+    </small>
+  </a>
+
+
+</div>
+</div>
+
+<div class="schedule">
+    <div class="schedule-week ">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    This Week
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Strings</h2>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+    <div class="schedule-lecture last">
+        <h3 class="schedule-week-component-title">
+            Lecture 15 &mdash; Tries
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/15-tries/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            marked slides not yet posted...
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a target="blank_" href="https://datahub.ucsd.edu/hub/user-redirect/git-pull?repo=https://github.com//eldridgejm/dsc190-2021-wi-public&branch=master&subPath=lectures/15-tries/demo.ipynb&app=notebook">Demo Notebook</a>
+
+    </li>
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+            </ol>
+        </div>
+    </div>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+        <div class="schedule-separator">
+            past weeks
+        </div>
+
+
+
+
+<div class="schedule">
+    <div class="schedule-week ">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 7
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Algorithm Design, pt. III</h2>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+    <div class="schedule-lecture ">
+        <h3 class="schedule-week-component-title">
+            Lecture 14 &mdash; Rabin-Karp String Matching
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/14-rabin_karp/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            marked slides not yet posted...
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/ZcgX5Z6hsVE">String Matching</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/n_7XllhBTic">Rabin-Karp</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/GeOyK4DcW_U">Rolling Hashes</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="schedule-lecture last">
+        <h3 class="schedule-week-component-title">
+            Lecture 13 &mdash; Unit Testing (Optional)
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/13-pytest/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            marked slides not yet posted...
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/nE2alAiA6LI">Today's (Optional) Lecture</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/Ian7V7HVT0k">How to Test Your Homework with pytest</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Homework 6
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-question schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/06-rabin_karp/homework.pdf>Homework Questions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-building_construction schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/06-rabin_karp/template.zip>LaTeX Template</a> and <a href=https://youtu.be/Dq9ldNPXrM0>how to use it</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-danger">
+
+                    Due
+
+                Thursday, Feb 25 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="schedule">
+    <div class="schedule-week ">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 6
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Algorithm Design, pt. II</h2>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+    <div class="schedule-lecture ">
+        <h3 class="schedule-week-component-title">
+            Lecture 12 &mdash; Longest Common Subsequence
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/12-dp-lcs/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            marked slides not yet posted...
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/z6OMnZdYNVc">Today's Lecture</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/sKbyZwZD3I0">Longest Common Subsequences</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/_ErXE8gfAoE">Step 01: Backtracking for LCS</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/Y8QUpV_XnKw">Step 02: A Nicer Backtracking Solution for LCS</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/vmzK2BJ6EJc">Step 03: Top-Down DP Solution for LCS</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="schedule-lecture last">
+        <h3 class="schedule-week-component-title">
+            Lecture 11 &mdash; Dynamic Programming, pt. I
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/11-dp/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            marked slides not yet posted...
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/VzulM6IW264">Today's Lecture</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/-2mb4SRM8kA">The Weighted Activity Scheduling Problem</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/fTkhx8WTWs4">Step 01: Backtracking Solution</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/w1iIZP8BBU0">Step 02: A Nicer Backtracking Solution</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/fiuYwB6ia6Q">Step 03: Memoization</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/_HMCVjlm7V8">Top-Down vs. Bottom-Up</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/R0E5ytG0blE">Summary of Dynamic Programming</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Homework 5
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-question schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/05-dp/homework.pdf>Homework Questions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-building_construction schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/05-dp/template.zip>LaTeX Template</a> and <a href=https://youtu.be/Dq9ldNPXrM0>how to use it</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-light">
+
+                    Was due
+
+                Thursday, Feb 18 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Discussion 6
+            </h3>
+            <div class="schedule-discussion-resources">
+                <ul class="schedule-discussion-resources">
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/j/98094037711?pwd=TUg0aHY2c2xmbk9zcElHd0dpMGRxQT09">Zoom Meeting</a> <small>1:00 PM PST on Thursday; <br>password: wi2021</small>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/rec/share/-M5xfb1VNsk4LXKMeJNJEfRPStg8YWk81mjT736iWPZj7-RvuIUYysSNsIb20nFt.NBCGijGEIJki6enT">Zoom Recording</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/discussions/06-backtracking-memoization/discussion.pdf">Discussion Worksheet</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/discussions/06-backtracking-memoization/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <small>topic: time complexity analysis</small>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="schedule">
+    <div class="schedule-week ">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 5
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Algorithm Design, pt. I</h2>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+    <div class="schedule-lecture ">
+        <h3 class="schedule-week-component-title">
+            Lecture 10 &mdash; Backtracking
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/10-backtracking/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            marked slides not yet posted...
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/5af5Wb_16NY">Today's Lecture</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/il2wxXVEUhg">The 0-1 Knapsack Problem</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/BRzdtxzaxZ0">Backtracking</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/mmGij8aZdFM">Efficiency Analysis</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/43_HxGPnlHI">Branch and Bound</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/8JZS1yW6pUQ">Summary</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="schedule-lecture last">
+        <h3 class="schedule-week-component-title">
+            Lecture 9 &mdash; Greedy Algorithms
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/09-greedy/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            marked slides not yet posted...
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/F2_BJVuglS4">Today's Lecture</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/o1UOMJYqsKs">Optimization Problems</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/kLXnGYyPW_M">Greedy Algorithms by Example</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/VljvVR7_zQU">Activity Selection</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/OLDU-EoX7nk">Exchange Arguments</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/ctqlbG24EtQ">Minimum Spanning Trees</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/1W3vEgZORt4">Designing Greedy Algorithms</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Homework 4
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-question schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/04-dsf-greedy/homework.pdf>Homework Questions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-hammer_and_wrench schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/04-dsf-greedy/starter_code.zip>Starter Code</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-building_construction schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/04-dsf-greedy/template.zip>LaTeX Template</a> and <a href=https://youtu.be/Dq9ldNPXrM0>how to use it</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/04-dsf-greedy/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-light">
+
+                    Was due
+
+                Thursday, Feb 11 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Discussion 5
+            </h3>
+            <div class="schedule-discussion-resources">
+                <ul class="schedule-discussion-resources">
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/j/98094037711?pwd=TUg0aHY2c2xmbk9zcElHd0dpMGRxQT09">Zoom Meeting</a> <small>1:00 PM PST on Thursday; <br>password: wi2021</small>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/rec/share/i52-dXVYbctMCl-o_cjfLlqeCJ46iHPPiuo6OKwVrFTW_5Ts5Pd8mzxIgFYYtLqd.hG6I2wfhM5anN-z9">Zoom Recording</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/discussions/05-dsf-greedy/discussion.pdf">Discussion Worksheet</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/discussions/05-dsf-greedy/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <small>topic: dsfs and greedy algorithms</small>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="schedule">
+    <div class="schedule-week ">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 4
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Disjoint Sets</h2>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+    <div class="schedule-lecture ">
+        <h3 class="schedule-week-component-title">
+            Lecture 8 &mdash; Disjoint Set Forests
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/08-union_find/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            marked slides not yet posted...
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/A5oUnrDmxIE">Today's Lecture</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/eZ9zpUVE7VY">Disjoint Set Forests</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/dhsQFj9Z9Nk">Path Compression and Union-by-Rank</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/CzdXoLjTye0">Analysis</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="schedule-lecture last">
+        <h3 class="schedule-week-component-title">
+            Lecture 7 &mdash; Locality Sensitive Hashing
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/07-lsh/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/07-lsh/marked.pdf">Lecture Slides (Marked)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a target="blank_" href="https://datahub.ucsd.edu/hub/user-redirect/git-pull?repo=https://github.com//eldridgejm/dsc190-2021-wi-public&branch=master&subPath=lectures/07-lsh/demo.ipynb&app=notebook">Demo Notebook</a>
+
+    </li>
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/1bibGM7aGqo">Today's Lecture</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/4MXTN2hrRXM">Implementing a NN Grid</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/LUiKO1GMPtg">Randomized Grids</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/_bYeKKpcVkg">Theory of Locality Sensitive Hashing</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/oOwVI3Fn7sA">The Johnson-Lindenstrauss Lemma</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/BwnOphDhnEk">ANN in Practice</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/CkPfPJQbSjg">LSH Demo</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Homework 3
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-question schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/03-nn_search/homework.pdf>Homework Questions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-building_construction schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/03-nn_search/template.zip>LaTeX Template</a> and <a href=https://youtu.be/Dq9ldNPXrM0>how to use it</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/03-nn_search/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-light">
+
+                    Was due
+
+                Thursday, Feb 04 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Discussion 4
+            </h3>
+            <div class="schedule-discussion-resources">
+                <ul class="schedule-discussion-resources">
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/j/98094037711?pwd=TUg0aHY2c2xmbk9zcElHd0dpMGRxQT09">Zoom Meeting</a> <small>1:00 PM PST on Thursday; <br>password: wi2021</small>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/rec/share/BjO3eJyEeIJpCAqko6WS3U0Nan6cf1421PP9254IJIGx7q6b6h1sCZ_kcyoX8V98.tH2MSqPT86GKsQD9">Zoom Recording</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/discussions/04-kd_trees-lsh/discussion.pdf">Discussion Worksheet</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/discussions/04-kd_trees-lsh/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <small>topic: k-d trees and lsh</small>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="schedule">
+    <div class="schedule-week ">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 3
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Faster NN Queries</h2>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+    <div class="schedule-lecture ">
+        <h3 class="schedule-week-component-title">
+            Lecture 6 &mdash; k-d Trees
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/06-kd_trees/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/06-kd_trees/marked.pdf">Lecture Slides (Marked)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a target="blank_" href="https://datahub.ucsd.edu/hub/user-redirect/git-pull?repo=https://github.com//eldridgejm/dsc190-2021-wi-public&branch=master&subPath=lectures/06-kd_trees/demo.ipynb&app=notebook">Demo Notebook</a>
+
+    </li>
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/SBoSLrdzAn0">Today's Lecture</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/sBUIzn0FwC0">k-d Trees</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/AHLz5JKtgLY">Nearest Neighbor Queries</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/9wlvLG6q0wQ">Construction</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/82a9dTcHuN8">The Curse of Dimensionality</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/KXKvhJoSCbM">Approximate Nearest Neighbors</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="schedule-lecture last">
+        <h3 class="schedule-week-component-title">
+            Lecture 5 &mdash; Treaps
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/05-treaps/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/05-treaps/marked.pdf">Lecture Slides (Marked)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a target="blank_" href="https://datahub.ucsd.edu/hub/user-redirect/git-pull?repo=https://github.com//eldridgejm/dsc190-2021-wi-public&branch=master&subPath=lectures/05-treaps/demo.ipynb&app=notebook">Demo Notebook</a>
+
+    </li>
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/5hKrRoPOukE">Today's Lecture</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/H46X4tuL1ps">Red-Black Trees</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/OIiAHgiDwtc">Randomization to the Rescue</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/gvYdd_btRLI">Treaps</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/wKuh16jJG1U">Properties of Treaps</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/xwSIXgbdROU">Randomized Binary Search Trees</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/jKUQcj8w4wQ">Order Statistic Trees</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/YHszHAfl9xM">Heaps vs. BSTs</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Homework 2
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-question schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/02-treaps/homework.pdf>Homework Questions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-hammer_and_wrench schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/02-treaps/starter_code.zip>Starter Code</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-building_construction schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/02-treaps/template.zip>LaTeX Template</a> and <a href=https://youtu.be/Dq9ldNPXrM0>how to use it</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/02-treaps/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-light">
+
+                    Was due
+
+                Wednesday, Jan 27 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Discussion 3
+            </h3>
+            <div class="schedule-discussion-resources">
+                <ul class="schedule-discussion-resources">
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/j/98094037711?pwd=TUg0aHY2c2xmbk9zcElHd0dpMGRxQT09">Zoom Meeting</a> <small>1:00 PM PST on Thursday; <br>password: wi2021</small>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/rec/share/e7EeNyi9-T_n9CdI7dHafx4MBh4HcM-QbHJK1jNlYgPmg7HOrx52jNVHwwl1iU4m.0OvGQCBnC04i8d7c">Zoom Recording</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/discussions/03-treaps/discussion.pdf">Discussion Worksheet</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/discussions/03-treaps/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <small>topic: time complexity analysis</small>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="schedule">
+    <div class="schedule-week ">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 2
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Heaps and Balanced Binary Trees</h2>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+    <div class="schedule-lecture ">
+        <h3 class="schedule-week-component-title">
+            Lecture 4 &mdash; Binary Search Trees
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/04-bst/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/04-bst/marked.pdf">Lecture Slides (Marked)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/oIeMbGvP45k">Dynamic Sets and Hashing</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/VPMif7nwruU">Binary Search Trees</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/VmSMsS0LzGY">Range Queries in BSTs</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="schedule-lecture last">
+        <h3 class="schedule-week-component-title">
+            Lecture 3 &mdash; Heaps
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/03-heaps/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/03-heaps/marked.pdf">Lecture Slides (Marked)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/cXKhWPYgnCw">Abstract Data Types</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/vjMpzJbbvG4">Priority Queues</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/h_8-O1G70ao">Binary Heaps</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/eJ_YYxUV5x8">Example: Online Median</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Homework 1
+            </h3>
+            <div class="schedule-assignment-resources">
+                <ul class="schedule-assignment-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-question schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/01-dynamic_arrays-heaps/homework.pdf>Homework Questions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-building_construction schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/01-dynamic_arrays-heaps/template.zip>LaTeX Template</a> and <a href=https://youtu.be/Dq9ldNPXrM0>how to use it</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/homeworks/01-dynamic_arrays-heaps/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+
+            <div class="badge badge-pill badge-light">
+
+                    Was due
+
+                Wednesday, Jan 20 at 23:59 PM
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Discussion 2
+            </h3>
+            <div class="schedule-discussion-resources">
+                <ul class="schedule-discussion-resources">
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/j/98094037711?pwd=TUg0aHY2c2xmbk9zcElHd0dpMGRxQT09">Zoom Meeting</a> <small>1:00 PM PST on Thursday; <br>password: wi2021</small>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/rec/share/DXP2EG_upXmVCXPxqp75okdihx0aJHSniLAUh-qd3Zx0O1oR0hE448uvyrCCgape.jPNnHnAD7RNh6unf">Zoom Recording</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/discussions/02-heaps/discussion.pdf">Discussion Worksheet</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/discussions/02-heaps/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <small>topic: heaps</small>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="schedule">
+    <div class="schedule-week ">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 1
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Introduction</h2>
+
+
+
+        </div>
+
+
+
+
+
+
+                <div class="alert alert-primary schedule-announcement">
+                    <p><h3 id="welcome-to-dsc-190">Welcome to DSC 190!</h3>
+<p>Here's how to get started:</p>
+<ul>
+<li>read the <a href="./syllabus.html">syllabus</a></li>
+<li>join our 
+  <a href="https://campuswire.com/c/G9B54D5CE/feed">campuswire</a>
+  and 
+  <a href="https://www.gradescope.com/courses/220719">gradescope</a> 
+  with the email invitations you received earlier this week</li>
+<li>watch the intro lecture (posted below)</li>
+</ul>
+<p>See you in lecture.</p></p>
+                </div>
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+    <div class="schedule-lecture ">
+        <h3 class="schedule-week-component-title">
+            Lecture 2 &mdash; Dynamic Arrays
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/02-dynamic_arrays/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/02-dynamic_arrays/marked.pdf">Lecture Slides (Marked)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a target="blank_" href="https://datahub.ucsd.edu/hub/user-redirect/git-pull?repo=https://github.com//eldridgejm/dsc190-2021-wi-public&branch=master&subPath=lectures/02-dynamic_arrays/demo.ipynb&app=notebook">Demo Notebook</a>
+
+    </li>
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/5J6UlEdvDSk">More about Memory</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/Pi28WszvaZI">Motivating Dynamic Arrays</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/7Jr3IFFsLgo">Amortized Analysis</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/nWm4cfFzXRY">Practicalities</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="schedule-lecture last">
+        <h3 class="schedule-week-component-title">
+            Lecture 1 &mdash; Introduction and Review
+        </h3>
+        <div class="schedule-lecture-resources">
+            <ul class="schedule-lecture-resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/01-intro/slides.pdf">Lecture Slides (Blank)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-film_frames schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/lectures/01-intro/marked.pdf">Lecture Slides (Marked)</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="schedule-lecture-parts">
+            <ol class="schedule-lecture-parts">
+
+                <li>
+                    <a href="https://youtu.be/Ek0bu_KsI2M">The Syllabus</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/VbUMkNk0T1o">Review of Time Complexity Analysis</a>
+                </li>
+
+                <li>
+                    <a href="https://youtu.be/5ZbEG8Iebe8">Review of Arrays and Linked Lists</a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="list-group-item">
+            <h3 class="schedule-week-component-title">
+                Discussion 1
+            </h3>
+            <div class="schedule-discussion-resources">
+                <ul class="schedule-discussion-resources">
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/j/98094037711?pwd=TUg0aHY2c2xmbk9zcElHd0dpMGRxQT09">Zoom Meeting</a> <small>1:00 PM PST on Thursday; <br>password: wi2021</small>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <a href="https://ucsd.zoom.us/rec/share/DK3xFEzA1QnNjURdkHu8NKsJrbJOzNEWga1CYCYg1s49SsIRbZRURjsW6HsXKhha.vn8pkJ-1AtjVSZD-">Zoom Recording</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-spiral_note_pad schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href="published/discussions/01-dynamic_arrays/discussion.pdf">Discussion Worksheet</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+            <i class="em-svg em-mag schedule-resource-icon" aria-role="presentation" ></i>
+
+
+            <a href=published/discussions/01-dynamic_arrays/solution.pdf>Solutions</a>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="schedule-resource">
+
+
+            <small>topic: time complexity analysis</small>
+
+    </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <div class="schedule-separator">
+            future weeks
+        </div>
+
+
+
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 9
+
+
+
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Sketching and Streaming</h2>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="schedule">
+    <div class="schedule-week schedule-week-future">
+        <div class="schedule-week-title">
+            <h1 class="schedule-week-title-number">
+
+                    Week 10
+
+
+
+
+                    <i class="em-svg em-checkered_flag" aria-role="presentation" ></i>
+
+            </h1>
+            <h2 class="schedule-week-title-topic">Theory of Computation</h2>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-7">
+
+
+
+            </div>
+            <div class="col-md-5">
+                <div class="list-group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
