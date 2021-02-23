@@ -692,7 +692,24 @@
                         "date": "2021-02-23",
                         "number": 15,
                         "topic": "Tries",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Today's Lecture",
+                                "url": "https://youtu.be/01E2aJ0cT-w"
+                            },
+                            {
+                                "title": "Tries",
+                                "url": "https://youtu.be/20cMPKhlhOE"
+                            },
+                            {
+                                "title": "Implementation",
+                                "url": "https://youtu.be/v3cpXVGG-3M"
+                            },
+                            {
+                                "title": "Practical Limitations and Demo",
+                                "url": "https://youtu.be/Xp9OA1PJR0Q"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
