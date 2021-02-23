@@ -686,6 +686,22 @@
                             "path": "lectures/14-rabin_karp/slides.pdf"
                         }
                     }
+                },
+                "15-tries": {
+                    "metadata": {
+                        "date": "2021-02-23",
+                        "number": 15,
+                        "topic": "Tries",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/15-tries/slides.pdf"
+                        },
+                        "export-to-public-github.zip": {
+                            "path": "lectures/15-tries/export-to-public-github.zip"
+                        }
+                    }
                 }
             }
         },
