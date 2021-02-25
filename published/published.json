@@ -719,6 +719,19 @@
                             "path": "lectures/15-tries/export-to-public-github.zip"
                         }
                     }
+                },
+                "16-suffix_trees": {
+                    "metadata": {
+                        "date": "2021-02-25",
+                        "number": 16,
+                        "topic": "Suffix Trees",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/16-suffix_trees/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -842,6 +855,22 @@
                         },
                         "solution.pdf": {
                             "path": "discussions/06-backtracking-memoization/solution.pdf"
+                        }
+                    }
+                },
+                "07-tries": {
+                    "metadata": {
+                        "number": 7,
+                        "topic": "Tries and Suffix Trees",
+                        "date": "2021-02-18",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/07-tries/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/07-tries/solution.pdf"
                         }
                     }
                 }
