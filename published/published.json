@@ -725,7 +725,16 @@
                         "date": "2021-02-25",
                         "number": 16,
                         "topic": "Suffix Trees",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "Suffix Tries and Suffix Trees",
+                                "url": "https://youtu.be/7LoJQ-3FrfY"
+                            },
+                            {
+                                "title": "Longest Repeated Substring",
+                                "url": "https://youtu.be/ymeg97q4esg"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
