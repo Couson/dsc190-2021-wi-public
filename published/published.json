@@ -871,15 +871,12 @@
                     "metadata": {
                         "number": 7,
                         "topic": "Tries and Suffix Trees",
-                        "date": "2021-02-18",
+                        "date": "2021-02-25",
                         "recording": null
                     },
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/07-tries/discussion.pdf"
-                        },
-                        "solution.pdf": {
-                            "path": "discussions/07-tries/solution.pdf"
                         }
                     }
                 }
