@@ -877,6 +877,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/07-tries/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/07-tries/solution.pdf"
                         }
                     }
                 }
