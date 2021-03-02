@@ -741,6 +741,36 @@
                             "path": "lectures/16-suffix_trees/slides.pdf"
                         }
                     }
+                },
+                "17-bloom_filters": {
+                    "metadata": {
+                        "date": "2021-03-02",
+                        "number": 17,
+                        "topic": "Bloom Filters",
+                        "videos": [
+                            {
+                                "title": "Today's Lecture",
+                                "url": "https://youtu.be/qZ2FMlnqtBo"
+                            },
+                            {
+                                "title": "Bit Arrays",
+                                "url": "https://youtu.be/UCVsSP93Xag"
+                            },
+                            {
+                                "title": "Bloom Filters",
+                                "url": "https://youtu.be/f9tJEhK3Pvg"
+                            },
+                            {
+                                "title": "Bloom Filters in Practice",
+                                "url": "https://youtu.be/31L2RKmm7us"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/17-bloom_filters/slides.pdf"
+                        }
+                    }
                 }
             }
         },
