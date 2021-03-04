@@ -912,6 +912,19 @@
                             "path": "discussions/07-tries/solution.pdf"
                         }
                     }
+                },
+                "08-bloom": {
+                    "metadata": {
+                        "number": 8,
+                        "topic": "Bloom Filters",
+                        "date": "2021-03-04",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "discussion.pdf": {
+                            "path": "discussions/08-bloom/discussion.pdf"
+                        }
+                    }
                 }
             }
         },
