@@ -777,7 +777,16 @@
                         "date": "2021-03-04",
                         "number": 18,
                         "topic": "Count-Min Sketch",
-                        "videos": []
+                        "videos": [
+                            {
+                                "title": "The Count-Min Sketch",
+                                "url": "https://youtu.be/HFWS70TkN8A"
+                            },
+                            {
+                                "title": "Designing a Count-Min Sketch",
+                                "url": "https://youtu.be/geNsco2z2vc"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "slides.pdf": {
