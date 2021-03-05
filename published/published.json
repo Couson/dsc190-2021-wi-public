@@ -923,6 +923,9 @@
                     "artifacts": {
                         "discussion.pdf": {
                             "path": "discussions/08-bloom/discussion.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "discussions/08-bloom/solution.pdf"
                         }
                     }
                 }
