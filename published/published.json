@@ -771,6 +771,19 @@
                             "path": "lectures/17-bloom_filters/slides.pdf"
                         }
                     }
+                },
+                "18-count_min_sketch": {
+                    "metadata": {
+                        "date": "2021-03-04",
+                        "number": 18,
+                        "topic": "Count-Min Sketch",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/18-count_min_sketch/slides.pdf"
+                        }
+                    }
                 }
             }
         },
