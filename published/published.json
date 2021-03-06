@@ -141,6 +141,22 @@
                             "path": "homeworks/06-rabin_karp/template.zip"
                         }
                     }
+                },
+                "07-tries-sketching": {
+                    "metadata": {
+                        "number": 7,
+                        "topic": "Tries, Suffix Tries, Bloom Filters, Count-Min Sketch",
+                        "due": "2021-03-11 23:59:00",
+                        "released": "2021-03-04 23:59:00"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/07-tries-sketching/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/07-tries-sketching/template.zip"
+                        }
+                    }
                 }
             }
         },
