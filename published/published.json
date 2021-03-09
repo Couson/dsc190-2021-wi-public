@@ -809,6 +809,19 @@
                             "path": "lectures/18-count_min_sketch/slides.pdf"
                         }
                     }
+                },
+                "19-complexity": {
+                    "metadata": {
+                        "date": "2021-03-09",
+                        "number": 19,
+                        "topic": "Complexity Theory",
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/19-complexity/slides.pdf"
+                        }
+                    }
                 }
             }
         },
