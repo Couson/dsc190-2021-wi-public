@@ -1023,7 +1023,19 @@
                 "allow_unspecified_artifacts": true,
                 "is_ordered": false
             },
-            "publications": {}
+            "publications": {
+                "final": {
+                    "metadata": {},
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "default/final/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "default/final/template.zip"
+                        }
+                    }
+                }
+            }
         }
     }
 }
