@@ -155,6 +155,9 @@
                         },
                         "template.zip": {
                             "path": "homeworks/07-tries-sketching/template.zip"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/07-tries-sketching/solution.pdf"
                         }
                     }
                 }
